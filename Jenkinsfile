@@ -28,12 +28,5 @@ exit 0'''
         junit(testResults: 'ethereum/test-results.xml', allowEmptyResults: true)
       }
     }
-    stage('pwd') {
-      steps {
-        sh '''#!/bin/bash
-
-pwd'''
-      }
-    }
   }
 }
