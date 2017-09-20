@@ -6,7 +6,7 @@ I've chosen to develop a similar DevOps process with Jenkins, Truffle and TestRP
 
 The project contains the components needed to create the test pipeline.
 
-## Building Jenkins Server
+## Building Jenkins Server  
 
 The current version is based on a single instance of Jenkins running Ubuntu 17.04.  The scripts can be adapted for other Linux distributions as needed.
 
