@@ -8,7 +8,7 @@ The project contains the components needed to create the test pipeline.
 
 ## Building Jenkins Server  
 
-The current version is based on a single instance of Jenkins running Ubuntu 17.04.  The scripts can be adapted for other Linux distributions as needed.
+The current version is based on a single instance of Jenkins running Ubuntu 17.04.  The scripts can be adapted for other Linux distributions as needed. 
 
 The script to automate the deployment is located at [jenkins/master-install.sh](jenkins/master-install.sh).  Jenkins installation is split into 2 routines.  First, install the dev tools needed to compile and deploy Java and Node applications such as JDK, Node, npm, Git and Jenkins itself.
 
