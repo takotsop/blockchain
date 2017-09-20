@@ -1,7 +1,7 @@
 pragma solidity ^0.4.4;
 
 contract BankAccount {
-    // The Bank
+    // The Bank     
     address public owner;
 
     // Balances for each account
