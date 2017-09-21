@@ -1,4 +1,4 @@
-# DevOps for Blockchain using Jenkins
+  # DevOps for Blockchain using Jenkins
 
 This project is inspired by the work of [Redback and Microsoft teams for developing the process using VSTS](https://microsoft.github.io/techcasestudies/redback-devops.html).
 
@@ -6,9 +6,9 @@ I've chosen to develop a similar DevOps process with Jenkins, Truffle and TestRP
 
 The project contains the components needed to create the test pipeline.
 
-## Building Jenkins Server
+## Building Jenkins Server  
 
-The current version is based on a single instance of Jenkins running Ubuntu 17.04.  The scripts can be adapted for other Linux distributions as needed.
+The current version is based on a single instance of Jenkins running Ubuntu 17.04.  The scripts can be adapted for other Linux distributions as needed. 
 
 The script to automate the deployment is located at [jenkins/master-install.sh](jenkins/master-install.sh).  Jenkins installation is split into 2 routines.  First, install the dev tools needed to compile and deploy Java and Node applications such as JDK, Node, npm, Git and Jenkins itself.
 
